@@ -146,7 +146,12 @@ input()
 storingInputInHere = input()
 print(storingInputInHere)
 
-# We can also ask what we're seeking input for by passing a message string
+# Let's ask the user what we need the input as
+print("Enter something ¯\_(ツ)_/¯ : ")
+something = input()
+print("Here is the something you entered",something)
+
+# We can also ask what we're seeking input for by passing a message string inside the int
 something = input("Enter something ¯\_(ツ)_/¯ : ")
 print("Here is the something you entered",something)
 
@@ -204,5 +209,5 @@ print("sayABoolValue and sayAnotherBoolValue is", sayABoolValue and sayAnotherBo
 """
 Try some challenge!
 1. Write a program to take first and last name as input and print the full name
-2. Write a program to take numbers as input and print if it is greater than 0
+2. Write a program to take a number as input and print if it is greater than 0
 """
