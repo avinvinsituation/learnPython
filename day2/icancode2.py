@@ -190,7 +190,7 @@ There are ways we can also work with boolean using the keywords
 
 not      Will return the result OPPOSITE to the bool | not True = False | not False = True
 or       Will ADD all the bools and return the result  | True or False = True | True or False => 1 + 0 => 1 => True
-and      Will MULTIPLY all the bools and return the result | True and False = True | True and False => 1 * 0 => 0 => False
+and      Will MULTIPLY all the bools and return the result | True and False = False | True and False => 1 * 0 => 0 => False
 
 """
 
