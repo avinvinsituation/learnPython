@@ -134,8 +134,8 @@ We can also use logical operators on strings
 to determine the LEXOGRAPHIC ORDERING
 
 s1 == s2     If two strings are equal, you can use to match passwords
-s1 > s2      If the string s1 comes before string s2
-s1 < s2      If the string s1 comes after string s2
+s1 < s2      If the string s1 comes before string s2
+s1 > s2      If the string s1 comes after string s2
 
 """
 
