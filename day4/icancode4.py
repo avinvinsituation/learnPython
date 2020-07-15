@@ -34,12 +34,12 @@ start_time = time.time()
 if (number1 > number2):
     if (number1 > number3):
         print("First number is the greatest!")
-    else: # meaning number3 is greater than number1
+    else: # meaning number3 is greater than number1, indirectly also greater than number2
         print("Third number is the greatest!")
 else:
     if (number2 > number3):
         print("Second number is the greatest!")
-    else: # meaning number3 is greater than number2
+    else: # meaning number3 is greater than number2, indirectly also greater than number1
         print("Third number is the greatest!")
 method2_time = (time.time() - start_time)
 print("\nTime taken by method 2 is", method2_time ,"seconds\n")
@@ -108,9 +108,9 @@ myName[-1] = "t"
 
 """
 
-print("myName[4] = ",myName[-4])
-print("myName[3] = ",myName[-3])
-print("myName[8] = ",myName[-8])
+print("myName[-4] = ",myName[-4])
+print("myName[-3] = ",myName[-3])
+print("myName[-8] = ",myName[-8])
 
 
 """
