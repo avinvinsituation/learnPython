@@ -143,6 +143,6 @@ Try some challenge!
 1. Write a program to take two numbers, and divide the bigger number by the smaller number and print the result
 (Hint: Look out for divide by zero error)
 
-1. Write a program to take a string and print it in the reverse order
+2. Write a program to take a string and print it in the reverse order
 (Hint: Remeber negative indexing)
 """
