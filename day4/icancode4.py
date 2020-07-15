@@ -34,12 +34,12 @@ start_time = time.time()
 if (number1 > number2):
     if (number1 > number3):
         print("First number is the greatest!")
-    else:
+    else: # meaning number3 is greater than number1
         print("Third number is the greatest!")
 else:
     if (number2 > number3):
         print("Second number is the greatest!")
-    else:
+    else: # meaning number3 is greater than number2
         print("Third number is the greatest!")
 method2_time = (time.time() - start_time)
 print("\nTime taken by method 2 is", method2_time ,"seconds\n")
@@ -134,9 +134,15 @@ string[start index : stop index : STEP INDEX]
 
 sentence = "m1e2a3n4i5n6g7"
 print(sentence[1::2])
+print(sentence[::-2])
+
+
 
 """
 Try some challenge!
 1. Write a program to take two numbers, and divide the bigger number by the smaller number and print the result
 (Hint: Look out for divide by zero error)
+
+1. Write a program to take a string and print it in the reverse order
+(Hint: Remeber negative indexing)
 """
