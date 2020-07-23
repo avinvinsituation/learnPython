@@ -89,29 +89,4 @@ while number < 11:
     # if the number was not incremented each time, then the number (1) will ALWAYS be less than 11,
     # and the while will run forever!
 
-
-# Let us look at a simple while program to count the number of words in a sentence!
-
-sentence = input("Enter a sentence to find the word count:\n")
-words = 0
-counter = 0
-while counter < len(sentence):
-    if(sentence[counter]==' '):
-        words = words + 1
-    counter = counter + 1
-
-words = words + 1 # Because the number of spaces are always one less than the number of words
-print("Total number of words in given sentence =",words)
-
-
-"""
-Try some challenge!
-1. Write a program to take a number as an input, and print the sum of all numbers from 0 to that input number
-(Hint: refer to first while loop in this program)
-
-2. Write a program to take 2 inputs,
-    > a string And
-    > an alphabet
-   and print all the index numbers of that alphabet in that string
-(Hint: refer to second while loop in this program)
-"""
+# We'll look at some more while loop examples on day6
