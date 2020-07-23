@@ -5,7 +5,7 @@
 # Sometimes we need to run the same command multiple times, that's when loops come in handy
 
 """
-Let's say we want to print 'something' for twice
+Let's say we want to print 'something' twice
 """
 print("something")
 print("something")
