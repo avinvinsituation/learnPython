@@ -216,6 +216,7 @@ Try some challenge!
 
 A problem to think differently!
 3. Write a program to repeatedly accept strings
-   And print the paragraph received so far
+   and print the paragraph received so far.
+   (Use a safe word to stop the execution. Assume the user knows the word.)
 
 """
