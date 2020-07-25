@@ -41,52 +41,31 @@ else:
     else: # meaning number3 is greater than number2, indirectly also greater than number1
         print("Third number is the greatest!")
 
+# Sometimes we need to run the same command multiple times, that's when loops come in handy
 
 """
-Boolean in if executes a command if the condition is true,
+Let's say we want to print 'something' twice
+"""
+print("something")
+print("something")
 
-But what if we want the command to KEEP RUNNING UNTIL the condition is true?
-
-we have a new keyword for this control flow called 'while'
-
-while <condition>:
-    This command is executed until the condition is true
-    And this command
-    and this
-
-    everything
-    inside this while
-    will be executed
-
-    NOTICE THE INDENT!
-
-    It is also important to
-    make sure the condition
-    becomes False
-    at some point
-    because if it doesn't
-    the while will keep
-    executing until eternity
-    because it doesn't really
-    care, ¯\_(ツ)_/¯
-    ¯\_(ツ)_/¯
-    ¯\_(ツ)_/¯
-    ¯\_(ツ)_/¯
-    ¯\_(ツ)_/¯
-    ¯\_(ツ)_/¯
-    ¯\_(ツ)_/¯
-    ¯\_(ツ)_/¯
-    ¯\_(ツ)_/¯
 
 """
+Let's say we want to print 'something' for 8 times
+"""
+print("something")
+print("something")
+print("something")
+print("something")
+print("something")
+print("something")
+print("something")
+print("something")
 
-# Let us try a simple program that prints the numbers from 1 to 10
+# Notice how you are repeating the same command many times?
+# Imagine if we had to print 'something' 100 times!
+# You'd probably quit going through these files :P
 
-number = 1
-while number < 11:
-    print(number)
-    number = number + 1 # the command that ensures the program reaches completion at some point
-    # if the number was not incremented each time, then the number (1) will ALWAYS be less than 11,
-    # and the while will run forever!
+# Here's were we can use "loops" which will execute the same command multiple times
 
-# We'll look at some more while loop examples on day6
+# We'll look at looping examples on day6

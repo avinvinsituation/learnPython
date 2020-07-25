@@ -2,30 +2,36 @@
 
 # Let's look at some more looping commands
 
-# Sometimes we need to run the same command multiple times, that's when loops come in handy
+"""
+We know that, Boolean in if executes a command if the condition is true,
+
+Sometimes we have to run a command to UNTIL a condition is true.
+
+we have a new keyword for this control flow called 'while'
+
+while <condition>:
+    This command is executed until the condition is true
+    And this command
+    and this
+
+    everything
+    inside this while
+    will be executed
+
+    NOTICE THE INDENT! which tells
+    which command is inside the while
+
+    It is also IMPORTANT to
+    make sure the condition
+    becomes False
+    at some point
+    because if it doesn't
+    the while will keep
+    executing until eternity
+    because it doesn't really
+    care, ¯\_(ツ)_/¯
 
 """
-Let's say we want to print 'something' twice
-"""
-print("something")
-print("something")
-
-
-"""
-Let's say we want to print 'something' for 8 times
-"""
-print("something")
-print("something")
-print("something")
-print("something")
-print("something")
-print("something")
-print("something")
-print("something")
-
-# Notice how you are repeating the same command many times?
-# Imagine if we had to print 'something' 100 times!
-# You'd probably quit going through these files :P
 
 # Here's were we can use "loops" which will execute the same command multiple times
 """
@@ -39,9 +45,20 @@ while <condition>:
         .
         .
 """
+# Let us try a simple program that prints the numbers from 1 to 10
+
+number = 1
+while number < 11:
+    print(number)
+    number = number + 1 # the command that ensures the program reaches completion at some point
+    # if the number was not incremented each time, then the number (1) will ALWAYS be less than 11,
+    # and the while will run forever!
+
 
 """
-Let's print 'something' for twice with a loop
+Let's print 'something' twice with a loop,
+
+TIP: remeber how we did the same on day5
 """
 count = 1
 while count<=2:
@@ -57,6 +74,7 @@ while count<=8:
     print("something")
     count = count + 1
 
+# Do you see how short the command is?
 # Now we can use this same concept to play more
 """
 Let's print first 8 numbers!
@@ -74,8 +92,31 @@ print(8)
 """
 count = 1
 while count<=8:
-    print(count)
-    count = count + 1
+    print(count) # Repeated 8 times
+    count = count + 1 # Repeated 8 times
+
+"""
+Let's see what forever can look like!
+That is if you don't have a counter!
+
+"""
+while True:
+    variable = input("Enter something:")
+    print("You entered :",variable)
+
+# we have to have a way to change the condition to False to exit the while loop
+
+condition = True
+while condition:
+    variable = input("Enter something:")
+    if variable=='stop':
+        condition = False
+    else:
+        print("You entered :",variable)
+
+# notice how you stopped a loop without using a counter
+# all that matters is the condition checked by while must be False to exit
+
 
 """
 Let's see how we can print all the letters in a name
@@ -172,4 +213,9 @@ Try some challenge!
     > an alphabet
    and print all the index numbers of that alphabet in that string
 (Hint: refer to second while loop in this program)
+
+A problem to think differently!
+3. Write a program to repeatedly accept strings
+   And print the paragraph received so far
+
 """
