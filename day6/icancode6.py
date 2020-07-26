@@ -212,7 +212,7 @@ Try some challenge!
     > a string And
     > an alphabet
    and print all the index numbers of that alphabet in that string
-(Hint: refer to second while loop in this program)
+(Hint: refer to last while loop in this program)
 
 A problem to think differently!
 3. Write a program to repeatedly accept strings
